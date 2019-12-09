@@ -1,10 +1,9 @@
 body {
     font-family:  'Poppins', sans-serif;
-    background-color: antiquewhite;
 }
 
-h3 {
-    letter-spacing: 4px;
+h2 {
+    letter-spacing: 2px;
   }
 
 .my-container{
@@ -32,3 +31,10 @@ h3 {
     height: 500px !important;
 }
 
+.my-heading{
+    font-size: 24px;
+}
+
+.border-radius-25{
+    border-radius: 25px;
+}
