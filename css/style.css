@@ -2,8 +2,8 @@ body {
     font-family:  'Poppins', sans-serif;
 }
 
-h2 {
-    letter-spacing: 2px;
+.letter-space-3px {
+    letter-spacing: 3px;
   }
 
 .my-container{
@@ -37,4 +37,12 @@ h2 {
 
 .border-radius-25{
     border-radius: 25px;
+}
+
+.font-fajalla{
+    font-family: 'Fjalla One', sans-serif !important;
+}
+
+.font-light-grey{
+    color:#aaa !important;
 }
