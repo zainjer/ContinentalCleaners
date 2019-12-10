@@ -65,3 +65,15 @@ body {
     transform: scale(1.1);
 }
 
+.table-style{
+    width: 100%;
+}
+
+.image-fully{
+    object-fit: cover;
+}
+
+.half-width{
+    width:50% !important;
+    height:auto;
+}
