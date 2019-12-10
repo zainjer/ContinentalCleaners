@@ -1,5 +1,8 @@
+/* FONT FAMILIY FJALLA & Source Sans Pro */
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro&display=swap');
+
 body {
-    font-family:  'Poppins', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .letter-space-3px {
@@ -46,3 +49,19 @@ body {
 .font-light-grey{
     color:#aaa !important;
 }
+
+.font-centered-on-image {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.zoom-mouse{
+    transition: transform .1s; 
+}
+
+.zoom-mouse:hover{
+    transform: scale(1.1);
+}
+
